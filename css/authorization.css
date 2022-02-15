@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100&display=swap');
+
+body{
+    background-color: black;
+}
+
+.main{
+    width: 640px;
+    height: 220px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 15px 16px 10px;
+    font-family: 'Sora', sans-serif;
+    border-radius: 4px;
+}
+
+h2{
+    font-size: 16px;
+    text-align: center;
+}
+p{
+    font-size: 14px;
+}
+input{
+    width: 608px;
+    border: 1px solid #DADADA;
+    padding: 15px;
+    font-size: 14px;
+}
+button{
+    border: 1px solid #232529;
+    width: 384px;
+    padding-top:  10px;
+    padding-bottom: 10px;
+    margin-top: 16px;
+    background-color: #232529;
+    color: white;
+    font-size: 20px;
+    font-weight: normal;
+    border-radius: 4px;
+}
+.button{
+    text-align: center;
+    color: white;
+    text-decoration: none;
+}
+
+input::-webkit-input-placeholder {
+    color: #DADADA;
+}
+
