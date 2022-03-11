@@ -14,9 +14,9 @@
     <div class=main1-1">
         <h2>Анкета для корпоративных клиентов</h2>
         <p>Личные данные</p>
-        <input type="text" placeholder="Фамилия" class="margin-1">
-        <input type="text" placeholder="Имя" class="margin-1">
-        <input type="text" placeholder="Отчество">
+        <input id="surname" type="text" placeholder="Фамилия" class="margin-1">
+        <input id="name" type="text" placeholder="Имя" class="margin-1">
+        <input id="patronymic" type="text" placeholder="Отчество">
     </div>
     <div class="main1-2">
         <p>Паспортные данные</p>
@@ -25,12 +25,12 @@
                 <div> Дата рождения</div>
                 <div><img src="img/calendar.svg" alt=""></div>
             </div>
-            <input type="text" placeholder="Место проживания по прописке" class="adress">
+            <input id="address" type="text" placeholder="Место проживания по прописке" class="adress">
         </div>
         <br>
         <div class="row2">
-            <input type="text" placeholder="Серийный номер AN/ID" class="margin-2">
-            <input type="text" placeholder="ИНН" class="margin-2">
+            <input id="id" type="text" placeholder="Серийный номер AN/ID" class="margin-2">
+            <input id="tin" type="text" placeholder="ИНН" class="margin-2">
             <div class="birthdate">
                 <div> Дата получения</div>
                 <div><img src="img/calendar.svg" alt=""></div>
@@ -38,9 +38,9 @@
         </div>
         <br>
         <div class="row3">
-            <input type="text" placeholder="Контактный номер" class="margin-2">
-            <input type="text" placeholder="Электронный адрес" class="margin-2">
-           <select class="bank-choose">
+            <input id="number" type="number" placeholder="Контактный номер" class="margin-2">
+            <input id="mail" type="text" placeholder="Электронный адрес" class="margin-2">
+           <select id="banks" class="bank-choose">
                <option hidden disabled selected value >Наименование банка</option>
                <option value="2" class="bank-value">Бакай Банк</option>
                <option value="3" class="bank-value">Дос Кредо Банк</option>
@@ -51,16 +51,13 @@
 <!--            </div>-->
         </div>
         <br>
-<!--        <input type="text" value="Фактическое место проживания" class="adress1">-->
-        <input type="text" placeholder="Фактическое место проживания" class="adress1">
+        <input id="home-address" type="text" placeholder="Фактическое место проживания" class="adress1">
 <!--        <div class="button"><button>Далее</button></div>-->
-        <div class="button" ><button><a href="#"class="button">Далее</a></button></div>
-
-
-        
-
-
+        <!-- <div class="button" ><button id="btn"><a href="#">Далее</a></button></div> -->
+        <!-- <div class="button" ><button id="btn">Оформить заявку</button></div> -->
+        <div class="button" ><button id="btn1">Оформить заявку</button></div>
     </div>
 </div>
+<script src="registration1.js"></script>
 </body>
 </html>
